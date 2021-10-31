@@ -1,0 +1,9 @@
+// if(!empty(&mail) && (!empty(&login) && (!empty(&password)){
+//if(isset($_POST)['formsend'])){
+  //echo "Votre mail : ".$_POST['mail'];
+  //echo "Votre nom : ".$_POST['login'];
+  //echo "Votre mot de passe : ".$_POST['password'];
+  //}
+//}
+
+ 

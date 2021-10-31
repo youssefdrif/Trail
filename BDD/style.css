@@ -1,0 +1,189 @@
+body 
+{
+	background-image: url("images/background2.png");
+	font-size: 26px;
+	margin-top: -30px;
+	width: 100%;
+	min-width: 1024px; max-width: 1920px;
+	min-height: 1280px; max-height: 1080px;
+	overflow: hidden;
+	background-size: cover;
+	margin : 0 auto;
+
+}
+
+h1 
+{
+	font-family : 'Oswald', sans-serif;
+    color: white;
+	text-align: center;
+	margin-top: auto;
+	font-size :55px;
+}
+
+h2 
+{
+	color : white;
+	text-align: center;
+	font-family : 'Oswald', sans-serif;
+	margin-top: -50px;
+}
+
+p1  
+{
+	color: white;
+	font-family : 'Oswald', sans-serif;
+	margin-left: -180px;
+}
+
+
+p2  
+{
+	color: white;
+	font-family : 'Oswald', sans-serif;
+	margin-right:10%;
+	padding-left:220px;
+}
+
+.dhuoda
+{
+	height: 200px; 
+	width: 200px; 
+	float: right;
+	margin-top:20px;
+}
+
+.snir2
+{
+	height: 230px;
+ 	width: 230px;
+	
+}
+
+.photo
+{
+	border:solid;
+	border-width: 8px;
+	border-color: white;
+	height: 190px;
+	width:  220px;
+	position: :fixed;	
+}
+
+.chrono
+{
+	border:solid;
+	border-width: 8px;
+	border-color: white;
+	height: 190px;
+	width:  220px;	
+}
+
+.text div
+{
+  font-size: 30px;
+  text-align: center;
+
+
+}
+
+.presentation td
+{
+  font-family : "Oswald";
+  font-weight: bold;
+  color: white;
+}
+
+ div 
+ {
+ 	margin-left: 200px;
+ 	margin-right : 200px;
+ }
+
+ .button1 
+ {
+  font-family : "Oswald"; font-size: 35px;
+  float: left;
+  color: white;
+  width: 50%;
+  background-color:#334249;
+  height: 20%;
+  cursor: pointer;
+  text-align: center;
+ border-color: #3C4E56;
+
+ }
+
+ .button2
+ {
+  font-family : "Oswald"; font-size: 35px;
+  float: right;
+  color: white;
+  width: 50%;
+  background-color:#334249;
+  height: 20%;
+  cursor: pointer;
+  text-align: center;
+  border-color: #3C4E56;
+
+ }
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  font-family : 'Oswald', sans-serif;
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+.modal {
+            display: none; /* Hidden by default */
+            position: center; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: -10.3%;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+           	
+            padding: 70px;
+            border: 1px solid #888;
+            width: 40%;
+            margin-top:12%;
+            margin-left: 26%;
+
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }

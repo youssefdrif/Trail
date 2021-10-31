@@ -1,0 +1,7 @@
+C:\xampp\mysql\bin\mysql.exe -u root -p
+C:\xampp\mysql\bin\mysql.exe -h 172.16.8.109 (adresseip) -u "nom" -p
+SELECT user FROM mysql.user;
+CREATE USER 'nom_utilisateur' IDENTIFIED BY 'mot_de_passe'
+DELETE FROM `coureur` WHERE `coureur`.`id_coureur` = 12
+GRANT ALL PRIVILEGES ON trail.* to 'test2'@'%' IDENTIFIED BY 'test2'; //tout les privilèges
+GRANT SELECT ON trail.* to 'test2'@'%' IDENTIFIED BY 'test2'; //privilège de lécture

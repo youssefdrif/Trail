@@ -1,0 +1,6 @@
+couleur background : 37474f
+<<a href="lien"> "nom </a> <- créer un lien cliquable
+
+<img src="images/snir2_logo.png" height="233" width="233" /> <- inserer une image
+
+border:5px maroon solid; <- exemple de bordure d'image

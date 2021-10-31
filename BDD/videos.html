@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="videos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="register.php">
+      <link rel="stylesheet" href="recherche_utilisateur.php">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Choisir un coureur</title>
+       <a href ="javascript:history.go(-1)">
+        <button class="button1" type="button">
+      Revenir au menu principal
+    </button></a>
+
+
+
+  <body>
+
+
+      <h1 class="h1">Voir les videos des coureurs</h1> </div>
+
+
+
+
+<?php include("recherche_utilisateur.php"); ?>
+<body>
+  
+
+<div class="topnav">
+
+  <div class="search-container">
+    <table>
+      <form method="POST" action="recherche_utilisateur.php">
+     <p><input type="text" name="nom_utilisateur" id="nom_utilisateur" placeholder="Nom de l'utilisateur" required></p>
+    </table>
+     
+      <button type="submit" class="fa fa-search"></button>
+    </form>
+  </div>
+
+
+<div style="padding-left:16px">
+  
+  
+
+ 
+
+</body>
+
+</html>

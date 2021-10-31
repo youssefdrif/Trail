@@ -1,0 +1,29 @@
+<?php 
+
+
+
+try {
+
+$connection = mysqli_connect("localhost","root","");
+mysqli_select_db($connection, "trail"); //or die ("impossible d'ouvrir la base de donnée");
+ $dbh = new PDO('mysql:host=localhost;dbname=trail' , 'root', '');
+ foreach ($dbh->query('SELECT * from users;') as $row) {
+
+ 	print_r($row);
+ }
+ $dbh = null;
+} catch (PDOException $e) {
+    print "Erreur !: " . $e->getMessage() . "<br/>";
+    die();
+}
+
+if($connection){
+
+  $sqli = "INSERT INTO users (email,name,password)
+  VALUES('".$_POST['email']."','".$_POST['name']."','".$_POST['password']."')";
+
+$requete = mysqli_query($connection, $sqli);
+mysqli_close($connection);
+
+}
+?>
